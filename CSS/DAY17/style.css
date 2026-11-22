@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* body{
+    padding: 10px;
+}
+.card{
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: red;
+    overflow: hidden;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.bottom{
+    height: 40%;
+    width: 100%;
+    background-color: red;
+background: linear-gradient(transparent , black);
+} */
+ body{
+    
+ }
+#main{
+    height: 40%;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(3,42,55);
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+overflow: auto;
+}
+
+#main::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    position: relative;
+    transition: all ease 0.4s;
+    border-radius: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} 
+.bottom{
+height: 40%;
+width: 100%;
+background: linear-gradient(transparent,black);
+position: absolute;
+bottom: -40%;
+transition: all ease 0.4s ;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+}
+.card:hover .bottom{
+    /* rotate :45deg */
+    bottom: 0;
+
+}
+.bottom h4{
+    color: white;
+    font-size: 20px;
+    padding: 5px 8px;
+    border-radius: 5%;
+}
+.bottom h3{
+    color: white;
+    font-size: 20px;
+}
+#child{
+    height: 60%;
+    width: 100%;
+   background-color: #888;
+    font-size: 100px;
+    font-weight: 100px;
+    align-items: center;
+    justify-content: center;
+   display: flex;
+   
+   
+}
+/* #child h1{
+    background-image: url(https://imgs.search.brave.com/CNRy7cUubkNctA3WE2TlPI-7vfmlNjM_r6pPNqJHcVo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS50ZW5vci5jb20v/Nms4M09UZzBXbGtB/QUFBTS9yYWluYm93/LWdpZi1yYWluYm93/LmdpZg.gif);
+    color: transparent;
+    background-clip: text;
+    background-size: cover;
+} */
+ #child h1{
+   color: transparent;
+   -webkit-text-stroke: 3px red;
+ }
