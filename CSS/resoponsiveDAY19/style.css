@@ -1,0 +1,37 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue';
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.parent {
+    background-color: darkslategray;
+    width: 60%;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h4 {
+    font-size: 2em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+p {
+    font-size: 0.5em;
+}
