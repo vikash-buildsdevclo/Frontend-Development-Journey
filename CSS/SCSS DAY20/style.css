@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+main section {
+  height: 100%;
+  flex-grow: 1;
+  background-color: red;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+  cursor: pointer;
+}
+main section:hover {
+  flex-grow: 2;
+}
+main section:nth-child(1) {
+  background-image: url(./Pasted\ 24-11-2026\ at\ 18.58.59.png);
+}
+main section:nth-child(2) {
+  background-image: url(https://i.pinimg.com/736x/af/96/c8/af96c81276cc8912688676586dbfe61f.jpg);
+}
+main section:nth-child(3) {
+  background-image: url(./thor.png);
+}
+main section:nth-child(4) {
+  background-image: url(https://i.pinimg.com/1200x/2a/9d/49/2a9d494a6d49a34921f5ec1eb1824e58.jpg);
+}
+main section:nth-child(5) {
+  background-image: url(https://i.pinimg.com/736x/c4/de/d5/c4ded5492314dd5ddcbc9eabcfe88c46.jpg);
+}/*# sourceMappingURL=style.css.map */
